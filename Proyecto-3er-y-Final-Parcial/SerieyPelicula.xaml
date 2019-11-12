@@ -15,11 +15,32 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="111,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="664"/>
         <Label Content="Año: " HorizontalAlignment="Left" Margin="41,190,0,0" VerticalAlignment="Top" FontSize="20"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="111,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
-        <Label Content="Año: " HorizontalAlignment="Left" Margin="264,190,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <ComboBox HorizontalAlignment="Left" Margin="325,203,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="111,252,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="664"/>
-        <Label Content="Director: " HorizontalAlignment="Left" Margin="20,225,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="111,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="664"/>
+        <Label Content="Genero:" HorizontalAlignment="Left" Margin="264,190,0,0" VerticalAlignment="Top" FontSize="20" Width="89"/>
+        <ComboBox HorizontalAlignment="Left" Margin="358,203,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem>Terror</ComboBoxItem>
+            <ComboBoxItem>Ciencia Ficcion</ComboBoxItem>
+            <ComboBoxItem>Accion</ComboBoxItem>
+            <ComboBoxItem>Comedia</ComboBoxItem>
+            <ComboBoxItem>Infantil</ComboBoxItem>
+            <ComboBoxItem>Romance</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Director: " HorizontalAlignment="Left" Margin="41,230,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="135,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="640"/>
+        <Label Content="Sinopsis: " HorizontalAlignment="Left" Margin="41,267,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="73" Margin="138,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="637"/>
+        <Label Content="Rating:" HorizontalAlignment="Left" Margin="44,359,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ComboBox HorizontalAlignment="Left" Margin="120,374,0,0" VerticalAlignment="Top" Width="44">
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+            <ComboBoxItem>6</ComboBoxItem>
+            <ComboBoxItem>7</ComboBoxItem>
+            <ComboBoxItem>8</ComboBoxItem>
+            <ComboBoxItem>9</ComboBoxItem>
+            <ComboBoxItem>10</ComboBoxItem>    
+        </ComboBox>
 
     </Grid>
 </UserControl>
