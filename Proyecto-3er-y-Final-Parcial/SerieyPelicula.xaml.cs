@@ -24,5 +24,19 @@ namespace Proyecto_3er_y_Final_Parcial
         {
             InitializeComponent();
         }
+
+        private void RdbPelicula_Checked(object sender, RoutedEventArgs e)
+        {
+            grdSeriesyPeliculas.Children.Clear();
+            switch(rdbPelicula.SelectedIndex)
+            {
+                case 0:
+                    grdSeriesyPeliculas.Children.Add(new Pelicula());
+                    break;
+
+                default:
+                    break;
+            }
+        }
     }
 }
