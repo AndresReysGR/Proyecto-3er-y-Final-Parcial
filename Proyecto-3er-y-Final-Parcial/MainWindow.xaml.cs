@@ -12,23 +12,37 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 
 namespace Proyecto_3er_y_Final_Parcial
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
+    /// 
     public partial class MainWindow : Window
     {
+        ObservableCollection<CaracteristicasPeliculas> CaracterP = new ObservableCollection<CaracteristicasPeliculas>();
         public MainWindow()
         {
             InitializeComponent();
+            CaracterP.Add
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             grdAgregar.Children.Clear();
             grdAgregar.Children.Add(new SerieyPelicula());
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void LstSeriesPeliculas_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

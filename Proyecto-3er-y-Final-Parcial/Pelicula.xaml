@@ -7,11 +7,11 @@
              mc:Ignorable="d" d:DesignWidth="734" Height="269">
     <Grid>
         <Label Content="Titulo: " HorizontalAlignment="Left" Margin="23,19,0,0" VerticalAlignment="Top" FontSize="20" Width="65"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="93,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="631"/>
+        <TextBox x:Name="txtTituloP" HorizontalAlignment="Left" Height="23" Margin="93,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="631"/>
         <Label Content="Año: " HorizontalAlignment="Left" Margin="23,61,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="93,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <TextBox x:Name="txtAñoP" HorizontalAlignment="Left" Height="23" Margin="93,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
         <Label Content="Genero:" HorizontalAlignment="Left" Margin="246,61,0,0" VerticalAlignment="Top" FontSize="20" Width="89"/>
-        <ComboBox HorizontalAlignment="Left" Margin="340,75,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="cbGeneroP" HorizontalAlignment="Left" Margin="340,75,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem Content="Terror"/>
             <ComboBoxItem Content="Ciencia Ficcion"/>
             <ComboBoxItem Content="Accion"/>
@@ -19,11 +19,12 @@
             <ComboBoxItem Content="Infantil"/>
             <ComboBoxItem Content="Romance"/>
         </ComboBox>
-        <Label Content="Temporada:" HorizontalAlignment="Left" Margin="23,103,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Director: " HorizontalAlignment="Left" Margin="21,100,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtDirectorP" HorizontalAlignment="Left" Height="23" Margin="112,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="612"/>
         <Label Content="Sinopsis: " HorizontalAlignment="Left" Margin="21,137,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="73" Margin="113,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="611"/>
+        <TextBox x:Name="txtSinopsisP" HorizontalAlignment="Left" Height="73" Margin="113,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="611"/>
         <Label Content="Rating:" HorizontalAlignment="Left" Margin="37,219,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <ComboBox HorizontalAlignment="Left" Margin="113,234,0,0" VerticalAlignment="Top" Width="44">
+        <ComboBox x:Name="cbRatingP" HorizontalAlignment="Left" Margin="113,234,0,0" VerticalAlignment="Top" Width="44">
             <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
             <ComboBoxItem Content="3"/>
@@ -35,30 +36,5 @@
             <ComboBoxItem Content="9"/>
             <ComboBoxItem Content="10"/>
         </ComboBox>
-        <Label Content="Productor:" HorizontalAlignment="Left" Margin="249,103,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="356,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
-        <ComboBox HorizontalAlignment="Left" Margin="136,114,0,0" VerticalAlignment="Top" Width="44">
-            <ComboBoxItem Content="1"/>
-            <ComboBoxItem Content="2"/>
-            <ComboBoxItem Content="3"/>
-            <ComboBoxItem Content="4"/>
-            <ComboBoxItem Content="5"/>
-            <ComboBoxItem Content="6"/>
-            <ComboBoxItem Content="7"/>
-            <ComboBoxItem Content="8"/>
-            <ComboBoxItem Content="9"/>
-            <ComboBoxItem Content="10"/>
-            <ComboBoxItem Content="11"/>
-            <ComboBoxItem Content="12"/>
-            <ComboBoxItem Content="13"/>
-            <ComboBoxItem Content="14"/>
-            <ComboBoxItem Content="15"/>
-            <ComboBoxItem Content="16"/>
-            <ComboBoxItem Content="17"/>
-            <ComboBoxItem Content="18"/>
-            <ComboBoxItem Content="19"/>
-            <ComboBoxItem Content="Mas de 20"/>
-        </ComboBox>
-
     </Grid>
 </UserControl>

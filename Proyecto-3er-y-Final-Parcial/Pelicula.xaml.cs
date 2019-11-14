@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Proyecto_3er_y_Final_Parcial
 {
     /// <summary>
@@ -20,9 +21,9 @@ namespace Proyecto_3er_y_Final_Parcial
     /// </summary>
     public partial class Pelicula : UserControl
     {
+        
         public Pelicula()
         {
             InitializeComponent();
         }
-    }
-}
+}}

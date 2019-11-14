@@ -11,22 +11,22 @@
         <Button Content="Ordenar Z-A" HorizontalAlignment="Left" Margin="21,629,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Mayor Año" HorizontalAlignment="Left" Margin="101,604,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Menor Año" HorizontalAlignment="Left" Margin="101,629,0,0" VerticalAlignment="Top" Width="75"/>
-        <ListView HorizontalAlignment="Left" Height="548" Margin="21,24,0,0" VerticalAlignment="Top" Width="155">
+        <Button Content="Nuevo Elemento" HorizontalAlignment="Left" Margin="198,24,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click"/>
+        <Grid x:Name="grdAgregar" HorizontalAlignment="Left" Height="450" Margin="212,61,0,0" VerticalAlignment="Top" Width="800">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Button Content="Guardar Nuevo Elemento" HorizontalAlignment="Left" Margin="680,547,0,0" VerticalAlignment="Top" Width="175" Height="39"/>
+        <Button Content="Camcelar" HorizontalAlignment="Left" Margin="883,547,0,0" VerticalAlignment="Top" Width="129" Height="39"/>
+        <ListView x:Name="lstSeriesPeliculas" HorizontalAlignment="Left" Height="492" Margin="21,61,0,0" VerticalAlignment="Top" Width="155" SelectionChanged="LstSeriesPeliculas_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button Content="Nuevo Elemento" HorizontalAlignment="Left" Margin="198,24,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click"/>
-        <Grid x:Name="grdAgregar" HorizontalAlignment="Left" Height="450" Margin="212,61,0,0" VerticalAlignment="Top" Width="800">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="129*"/>
-                <ColumnDefinition Width="271*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Button Content="Guardar Nuevo Elemento" HorizontalAlignment="Left" Margin="680,547,0,0" VerticalAlignment="Top" Width="175" Height="39"/>
-        <Button Content="Camcelar" HorizontalAlignment="Left" Margin="883,547,0,0" VerticalAlignment="Top" Width="129" Height="39"/>
 
     </Grid>
 </Window>
