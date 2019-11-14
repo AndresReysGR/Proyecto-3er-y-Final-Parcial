@@ -24,5 +24,11 @@ namespace Proyecto_3er_y_Final_Parcial
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            grdAgregar.Children.Clear();
+            grdAgregar.Children.Add(new SerieyPelicula());
+        }
     }
 }

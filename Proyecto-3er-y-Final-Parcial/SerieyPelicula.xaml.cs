@@ -28,15 +28,15 @@ namespace Proyecto_3er_y_Final_Parcial
         private void RdbPelicula_Checked(object sender, RoutedEventArgs e)
         {
             grdSeriesyPeliculas.Children.Clear();
-            switch(rdbPelicula.SelectedIndex)
-            {
-                case 0:
-                    grdSeriesyPeliculas.Children.Add(new Pelicula());
-                    break;
+            grdSeriesyPeliculas.Children.Add(new Pelicula());
+                    
+            
+        }
 
-                default:
-                    break;
-            }
+        private void RdbSerie_Checked(object sender, RoutedEventArgs e)
+        {
+            grdSeriesyPeliculas.Children.Clear();
+            grdSeriesyPeliculas.Children.Add(new Series());
         }
     }
 }

@@ -9,7 +9,7 @@
     <Grid>
         <Label Content="Agregar Nuevo Elemento" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Height="53" Width="436" FontSize="36"/>
         <Label Content="Tipo: " HorizontalAlignment="Left" Margin="31,68,0,0" VerticalAlignment="Top" Width="105" FontSize="22"/>
-        <RadioButton x:Name="rdbSerie" Content="Serie" HorizontalAlignment="Left" Margin="166,120,0,0" VerticalAlignment="Top" FontSize="16" Height="23" Width="105"/>
+        <RadioButton x:Name="rdbSerie" Content="Serie" HorizontalAlignment="Left" Margin="166,120,0,0" VerticalAlignment="Top" FontSize="16" Height="23" Width="105" Checked="RdbSerie_Checked"/>
         <Grid x:Name="grdSeriesyPeliculas" HorizontalAlignment="Left" Height="269" Margin="31,160,0,0" VerticalAlignment="Top" Width="734"/>
         <RadioButton x:Name="rdbPelicula" Content="Pelicula" HorizontalAlignment="Left" Margin="44,120,0,0" VerticalAlignment="Top" FontSize="16" Height="23" Width="105" Checked="RdbPelicula_Checked"/>
 

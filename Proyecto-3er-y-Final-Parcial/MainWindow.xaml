@@ -5,21 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_3er_y_Final_Parcial"
         mc:Ignorable="d"
-        Title="Peliculas y Series" Height="450" Width="800">
+        Title="Peliculas y Series" Height="750" Width="1150">
     <Grid>
-        <Button Content="Ordenar A-Z" HorizontalAlignment="Left" Margin="21,344,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Ordenar Z-A" HorizontalAlignment="Left" Margin="21,369,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Mayor Año" HorizontalAlignment="Left" Margin="101,344,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Menor Año" HorizontalAlignment="Left" Margin="101,369,0,0" VerticalAlignment="Top" Width="75"/>
-        <ListView HorizontalAlignment="Left" Height="290" Margin="21,24,0,0" VerticalAlignment="Top" Width="155">
+        <Button Content="Ordenar A-Z" HorizontalAlignment="Left" Margin="21,604,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Ordenar Z-A" HorizontalAlignment="Left" Margin="21,629,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Mayor Año" HorizontalAlignment="Left" Margin="101,604,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Menor Año" HorizontalAlignment="Left" Margin="101,629,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListView HorizontalAlignment="Left" Height="548" Margin="21,24,0,0" VerticalAlignment="Top" Width="155">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button Content="Nuevo Elemento" HorizontalAlignment="Left" Margin="198,24,0,0" VerticalAlignment="Top" Width="124"/>
-        <Grid HorizontalAlignment="Left" Height="253" Margin="212,61,0,0" VerticalAlignment="Top" Width="501"/>
+        <Button Content="Nuevo Elemento" HorizontalAlignment="Left" Margin="198,24,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click"/>
+        <Grid x:Name="grdAgregar" HorizontalAlignment="Left" Height="450" Margin="212,61,0,0" VerticalAlignment="Top" Width="800">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="129*"/>
+                <ColumnDefinition Width="271*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Button Content="Guardar Nuevo Elemento" HorizontalAlignment="Left" Margin="680,547,0,0" VerticalAlignment="Top" Width="175" Height="39"/>
+        <Button Content="Camcelar" HorizontalAlignment="Left" Margin="883,547,0,0" VerticalAlignment="Top" Width="129" Height="39"/>
 
     </Grid>
 </Window>
